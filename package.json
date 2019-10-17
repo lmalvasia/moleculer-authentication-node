@@ -1,0 +1,26 @@
+{
+  "name": "moleculer-demo",
+  "version": "1.0.0",
+  "description": "My Moleculer microservices project",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "start": "moleculer-runner",
+    "cli": "moleculer connect AMQP"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "moleculer-repl": "^0.5.7"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "ioredis": "^4.14.0",
+    "moleculer": "^0.13.9"
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  }
+}
